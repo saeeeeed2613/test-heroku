@@ -1,0 +1,20 @@
+.main-container{
+
+    background-image: url(//user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy…,w_2000,f_auto,q_auto/9621/a4011e77-0e25-416f-ab13-d3840a5664e3_kssoov.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding:10px 0 10px 0;
+}
+.main-container h1{
+  color:White;
+}
+h1::before,
+  h1::after {
+      border-top: .3rem solid White;
+  }
+.quote{
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color:white;
+  font-weight: bold;
+}

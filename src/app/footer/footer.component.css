@@ -1,0 +1,70 @@
+/*Start Section: Footer*/
+.footer {
+  background: #333;
+  color: #aaa;
+  padding-top: 5px;
+}
+.footer a {
+  color: #aaa;
+}
+.footer a:hover {
+  color: #eee;
+}
+.footer h3 {
+  color: #0895d1;
+  letter-spacing: 1px;
+  margin: 30px 0 20px;
+}
+.footer .three-columns {
+  overflow: hidden;
+}
+.footer .three-columns li {
+  width: 33.33333%;
+  float: left;
+  padding: 5px 0;
+}
+.footer .list-unstyled img {
+  width: 37px;
+  border-radius: 50%;
+}
+.footer .social-list {
+  overflow: hidden;
+  margin: 20px 0 10px;
+}
+.footer .social-list li {
+  float: left;
+  margin-right: 10px;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.footer .social-list li:hover {
+  opacity: 1;
+}
+.media {
+  padding: 10px 0 10px;
+}
+.footer .media img {
+  width: 64px;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+.footer .img-thumbnail {
+  width: 128px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #444;
+  margin-bottom: 5px;
+}
+.footer .copyright {
+  background: #333;
+  color: #aaa;
+  padding: 15px 0;
+  font-size: 18px;
+}
+.footer .copyright span {
+  color: #0895d1;
+}
+/*END Section: Footer*/

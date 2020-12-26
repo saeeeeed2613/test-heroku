@@ -1,0 +1,36 @@
+.body{
+	font-family: 'Gothic A1', sans-serif;
+	font-size:16px;
+	}
+	p{
+	color:#6c6c6f;
+	font-size:1em;
+	}
+  h1,h2,h3,h4,h5,h6{font-family: "Raleway", sans-serif; color:#323233;text-transform:uppercase; padding:10px 0 10px 0;}
+  h1::before,
+  h1::after {
+      display: inline-block;
+      content: "";
+      border-top: .3rem solid #323233;
+      width: 4rem;
+      margin: 0 1rem;
+      transform: translateY(-0.5rem);
+  }
+  hr{width:20%;}
+
+  .article-title{
+    font-family: "brandon grotesque", brandon, helvetica, sans-serif;
+    font-size: 20px;
+    color:rgb(81, 81, 82);
+    cursor: pointer;
+  }
+  .article-title:hover{
+   color: rgb(56, 56, 59);
+  }
+  .custom-date::before{
+    content:"Published "
+  }
+  .custom-date{
+    color:#fe8636;
+    font-size: 15px;
+  }

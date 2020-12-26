@@ -1,0 +1,12 @@
+.ScrollToTop{
+  position: fixed;
+  bottom:0px;
+  right:0px;
+  z-index: 999;
+}
+.img-thumbnail{
+  width:80px;
+  height:80px;
+  border:none;
+  background-color: transparent;
+}

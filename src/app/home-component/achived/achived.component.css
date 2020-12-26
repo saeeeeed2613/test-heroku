@@ -1,0 +1,9 @@
+.container-fluid{
+  margin-top:20px;
+}
+
+.img-thumbnail{
+  border-radius: 20px;;
+  border:none;
+  background-color:transparent;
+}
